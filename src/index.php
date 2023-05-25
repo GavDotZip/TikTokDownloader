@@ -25,11 +25,13 @@
                 ?>
 
                 <script>
+
                     $('body').append("<a id = 'wmarked_link></a>");
                     $.get('index.php?url=<?php echo $contentURL; ?>').done(function(data){})
                     $('#wmarked_link').attr('href', data);
                     $('wmarked_link').attr('download', data);
                     $('wmarked_link').text("Download");
+                    
                 </script>
             </div>
         </div>
