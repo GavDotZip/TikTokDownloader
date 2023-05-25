@@ -12,8 +12,17 @@
             <div class="col-md-12">
                 
                 <form action="" method="post">
-                    
+                    <input type="text" name="tiktok-url" value="">
+                    <button type="submit" name="button">Convert</button>
                 </form>
+
+                <!-- PHP Commands for Download -->
+                <?php
+                if(isset($_POST["tiktok-url"])) {
+                    $check = check($_POST['tiktok-url']);
+                    $contentURL = contentURL($check[1]);
+                }
+                ?>
 
             </div>
         </div>
