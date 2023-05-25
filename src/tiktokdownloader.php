@@ -1,4 +1,4 @@
-
+<!-- Class taken from https://raw.githubusercontent.com/tiktokdownloadercvt/tiktokdownloader/main/tiktokdownloader.php -->
 <?php
 $store_locally = true;
 $downloadAddr = '"downloadAddr":"';
