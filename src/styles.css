@@ -1,0 +1,23 @@
+/*ensure scroll bar if needed on y-axis*/
+html {
+    overflow-y: scroll;
+  }
+/*background image and body styling*/
+body {
+    background: url(
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.KQJ7WZR2wB05IQv8FkXtzQAAAA%26pid%3DApi&f=1&ipt=eda1ef6a83478a34e380d9caad92b5151a0144134b36e8848cf76e611690415c&ipo=images"
+        );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Manjari', sans-serif;
+  }
+
+form {
+    background: rgba(210, 226, 222, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  }
