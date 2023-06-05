@@ -32,6 +32,10 @@ form {
     color: black;
   }
 
+  input {
+    border: 2px solid black;
+  }
+
   button {
     background-color:deeppink;
     border: 2px solid black;
