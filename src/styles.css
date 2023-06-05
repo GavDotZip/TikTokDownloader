@@ -34,9 +34,15 @@ form {
 
   button {
     background-color:deeppink;
-    border: none;
-    color:aquamarine;
+    border: 2px solid black;
+    color:rgba(210, 226, 222, 0.9);
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition-duration: 0.4s;
+  }
+
+  button:hover {
+    background-color: rgba(210, 226, 222, 0.9);
+    color: deeppink;
   }
