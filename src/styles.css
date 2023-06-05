@@ -30,5 +30,13 @@ form {
   p {
     text-align: left;
     color: black;
+  }
 
+  button {
+    background-color:deeppink;
+    border: none;
+    color:aquamarine;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
